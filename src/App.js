@@ -46,7 +46,7 @@ class App extends Component {
         </Section>
         <Section title="Statistics">
           <Statistics
-            good={good}
+            // good={good}
             neutral={neutral}
             bad={bad}
             total={this.countTotalFeedback()}
