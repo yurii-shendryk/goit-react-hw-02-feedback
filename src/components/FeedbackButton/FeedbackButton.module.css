@@ -1,0 +1,27 @@
+.feedback__item {
+  font-size: 20px;
+}
+
+.feedback__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.feedback__button {
+  padding: 5px;
+  color: #fff;
+  background-color: rgb(85, 153, 236);
+  box-shadow: 0 2px 3px 3px rgba(85, 153, 236, 0.5);
+  border: 1px solid rgb(85, 153, 236);
+  outline: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback__button:active {
+  background-color: rgb(154, 81, 243);
+  box-shadow: 0 2px 3px 3px rgba(73, 238, 100, 0.693);
+}
+
+.feedback__button::first-letter {
+  text-transform: uppercase;
+}

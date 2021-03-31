@@ -1,0 +1,13 @@
+.statistics__list {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.statistics__item {
+  color: brown;
+}
+
+.statistics__item:not(:last-child) {
+  margin-bottom: 10px;
+}
