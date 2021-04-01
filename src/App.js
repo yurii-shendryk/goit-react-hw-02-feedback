@@ -7,8 +7,13 @@ class App extends Component {
   state = { good: 0, neutral: 0, bad: 0 };
 
   handleFeedback = ({ target }) => {
-    const feedback = target.textContent;
-    this.setState(prevState => ({ [feedback]: prevState[feedback] + 1 }));
+    console.dir(target);
+    const { feedback } = target.dataset;
+    this.setState(prevState => {
+      return {
+        [feedback]: prevState[feedback] + 1,
+      };
+    });
   };
 
   countTotalFeedback = () => {
