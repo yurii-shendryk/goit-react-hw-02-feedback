@@ -6,7 +6,6 @@ const FeedbackButton = ({ feedbackName, onLeaveFeedback }) => (
     <button
       className={styles.feedback__button}
       type="button"
-      data-feedback={feedbackName}
       onClick={onLeaveFeedback}
     >
       {feedbackName}
